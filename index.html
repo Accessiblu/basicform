@@ -5,12 +5,13 @@
     <meta name="viewport"/>
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="style.css" />
-    <title>Contact</title>
+    <title>Let's Get Started</title>
   </head>
 
   <body>
     <main>
-     <h1 tabindex="0">Contact form</h1>  
+     <h1 tabindex="0">Do you need help understanding how accessibility works?</h1> 
+     <h2 tabindex="0">Let us know more about your web accessibility issue and we’ll see how we can be of service.</h2> 
   <p tabindex="0">*Indicates a Required Field</p>
    
       
@@ -29,15 +30,15 @@
           type="email"
             id="email-input"            
             name="email"
-            placeholder="joe@example.com"
+            placeholder="email"
             autocomplete="off"
             required
           />
         </section>
         <section class="interested-services">
-          <label for="interested-services">Interested Services</label>
-          <select name="interested-services" id="select-services" label="interested-services" title="interested-services">
-            <option value="">Please choose an option</option>
+          <label for="interested-services">Interested Services*</label>
+          <select name="interested-services" id="select-services" label="interested-services" title="interested-services" required>
+            <option value="">I am interested in</option>
             <option value="website">Website</option>
             <option value="social-media">Social Media</option>
           </select>
