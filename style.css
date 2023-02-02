@@ -2,7 +2,7 @@ input {
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
-  border-bottom: 2px solid #004ce3;
+  border-bottom: 1px solid gray;
 }
 
 .btn_primary_md {
@@ -13,7 +13,7 @@ input {
     0% no-repeat padding-box;
   border-radius: 10px;
   opacity: 1;
-  padding: 24px 48px;
+  padding: 18px 48px;
   border: 0;
   outline: 0;
 }
