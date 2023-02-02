@@ -37,13 +37,27 @@
             <option value="website">Website</option>
             <option value="social-media">Social Media</option>
           </select>
+
+
+
+<section class="website">
           <label for="website">Website</label>
           <input id="website" type="url" name="website" />
         </section>
-        <section class="company">
+
+
+  <section class="company">
           <label for="company">Company</label>
-          <input id="company" type="text" name="company" />
-        </section>
+          <input
+            id="company"
+            type="text"
+            name="comment"
+            autocomplete="off"
+            required
+          />
+        </section> 
+
+       
         <section class="comment">
           <label for="comment">Comment</label>
           <input
@@ -54,6 +68,10 @@
             required
           />
         </section>
+
+
+
+
         <button class="btn_primary_md text_white support-form-btn">
           Submit
         </button>
